@@ -3,7 +3,7 @@ if (localStorage.getItem('theme') === 'dark' ||
       document.documentElement.classList.add('dark-theme');
     }
 
-    const themeToggleBtn = document.getElementById('theme-toggle');
+    const themeToggleBtn = document.getElementById('themetoggle');
     const rootElement = document.documentElement;
 
     if (rootElement.classList.contains('dark-theme')) {
