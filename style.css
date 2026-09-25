@@ -24,7 +24,7 @@ header {
 }
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   max-width: 900px;
   margin: 0 auto;
@@ -34,11 +34,6 @@ nav {
   border-radius: 50px;
   box-shadow: 0 20px 40px rgba(54, 44, 40, 0.05);
   border: 1px solid #e6dfd5;
-}
-header button{
-  position:absolute;
-  top:12px;
-  right:25px;
 }
 .logo {
   font-weight: 800;
