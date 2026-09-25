@@ -24,7 +24,7 @@ header {
 }
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   max-width: 900px;
   margin: 0 auto;
@@ -34,6 +34,11 @@ nav {
   border-radius: 50px;
   box-shadow: 0 20px 40px rgba(54, 44, 40, 0.05);
   border: 1px solid #e6dfd5;
+}
+header button{
+  position:absolute;
+  top:12px;
+  right:25px;
 }
 .logo {
   font-weight: 800;
@@ -281,4 +286,88 @@ outline: none;
   h2 {
     font-size: 2rem;
   }
+}
+
+
+html.dark-theme body {
+  background-color: #161412;
+  color: #f7f4ef;
+}
+
+html.dark-theme p {
+  color: #e6dfd5;
+  opacity: 0.85;
+}
+
+/* Navigation */
+html.dark-theme nav {
+  background: rgba(22, 20, 18, 0.8);
+  border-color: #362c28;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+html.dark-theme .navlinks a {
+  color: #f7f4ef;
+}
+
+html.dark-theme .navlinks a:hover {
+  color: #bc5d43;
+}
+
+/* Section Borders */
+html.dark-theme section {
+  border-bottom-color: #362c28;
+}
+
+/* Avatar Shadow */
+html.dark-theme .avatar {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* Project Cards */
+html.dark-theme .projectcard {
+  background: rgba(30, 26, 24, 0.7);
+  border-color: #362c28;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+html.dark-theme .projectcard:hover {
+  border-color: #bc5d43;
+  box-shadow: 0 30px 60px rgba(188, 93, 67, 0.15);
+}
+
+/* Form Elements */
+html.dark-theme .formgroup input,
+html.dark-theme .formgroup textarea {
+  background-color: #1e1b19;
+  border-color: #362c28;
+  color: #f7f4ef;
+}
+
+html.dark-theme .formgroup input:focus,
+html.dark-theme .formgroup textarea:focus {
+  border-color: #bc5d43;
+  box-shadow: 0 0 0 4px rgba(188, 93, 67, 0.2);
+}
+
+/* Skill Pills */
+html.dark-theme .skillpill {
+  background-color: rgba(188, 93, 67, 0.15);
+  border-color: rgba(188, 93, 67, 0.4);
+}
+
+html.dark-theme .skillpill:hover {
+  background: #bc5d43;
+  color: #161412;
+}
+
+/* Outline Buttons */
+html.dark-theme .btnoutline {
+  color: #d9825b;
+  border-color: #d9825b;
+}
+
+html.dark-theme .btnoutline:hover {
+  background: rgba(188, 93, 67, 0.15);
+  color: #bc5d43;
 }
