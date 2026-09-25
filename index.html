@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samaksh Budhia | Portfolio</title>
+  
+  <!-- New Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  </head>
+  
+  <body>
+  <header>
+    <nav>
+      <div class="logo">Hi!</div>
+      <ul class="navlinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="themetoggle" aria-label="Toggle dark mode">🌓</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <img src="photo.png" alt="Samaksh Budhia" class="avatar">
+      <h1>Hello, I'm <span class="gradienttext">Samaksh Budhia</span></h1>
+      <p class="subtitle">Building clean, functional experiences for the web.</p>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>First-year CS undergrad at Scaler School of Technology building a strong foundation in programming and core CS concepts. Passionate about software development, AI, and practical problem-solving through projects and hackathons. Eager to connect and learn!</p>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="projectsgrid">
+        <div class="projectcard">
+          <h3>Student Portal</h3>
+          <p>A centralized, user-friendly platform designed to streamline academic and profile management for college students.</p>
+          <!-- <a href="#" class="btn btnoutline btnsmall">View Live</a> -->
+        </div>
+        <div class="projectcard">
+          <h3>Mini Game UI</h3>
+          <p>A user interface crafted specifically for casual mini-games.</p>
+          <!-- <a href="#" class="btn btnoutline btnsmall">View Live</a> -->
+        </div>
+        <div class="projectcard">
+          <h3>Portfolio</h3>
+          <p>A purposeful collection of my projects, and achievements that shows my learning progress and skill development over time.</p>
+          <!-- <a href="#" class="btn btnoutline btnsmall">View Live</a> -->
+        </div>
+       
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skillscontainer">
+        <span class="skillpill">HTML</span>
+        <span class="skillpill">CSS</span>
+        <span class="skillpill">JavaScript</span>
+        <span class="skillpill">C++</span>
+        <span class="skillpill">Java</span>
+        <span class="skillpill">Python</span>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Let's Connect</h2>
+      
+      <div class="social-links" style="display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 2rem;">
+        <a href="https://github.com/samakshbudhia" target="_blank" class="btn btnoutline btnsmall">GitHub</a>
+        <a href="https://www.linkedin.com/in/samaksh-budhia-a2477341b/" target="_blank" class="btn btnoutline btnsmall">LinkedIn</a>
+        <a href="mailto:samakshbudhia@gmail.com" target="_blank" class="btn btnoutline btnsmall">Email</a>
+      </div>
+
+      <form id="contactform">
+        <div class="formgroup">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Sam Richwood" required>
+        </div>
+        <div class="formgroup">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="sam@gmail.com" required>
+        </div>
+        <div class="formgroup">
+          <label for="message">Message</label>
+          <textarea id="message" rows="4" placeholder="How can I help you?" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
